@@ -20,7 +20,6 @@
       padding: 80px;
       text-align: center;
       background: var(--headerColor);
-      background: var(--headerColor);
       color: white;
     }
     /*Increase size of h1*/
@@ -98,20 +97,16 @@
   </style>
   <!--Funtionality of webiste-->
   <script>
-  	
-    //let headerColor = '#' + red + green + blue;
-  	//let red = 26;
-    //let green = 188;
-    //let blue =156;
-  	//function changeColor() {
-    	//red += 1
-        //green += 0.25
-        //blue += 0.5
-    //}
+  	var header = document.querySelector(':root');
+    
+    function changeColor() {
+       header.style.setProperty('--headerColor', '#1a8cbc');
+    }
   </script>
+  <!--Simplification-->
   <!--
-  <style src="practice.CSS"></style>
-  <script src=""></script>
+  <style src="practice.css"></style>
+  <script src="practice.js"></script>
   -->
 </head>
 <body>
