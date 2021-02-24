@@ -1,15 +1,4 @@
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Page Title</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--Styling of website-->
-  <style>
-  :root {
-    --headColor: #1abc9c;
-  }
-    body {
+body {
       /*Font of in body*/
       font-family: Arial, Helvetica, sans-serif;
     }
@@ -19,7 +8,7 @@
     .header {
       padding: 80px;
       text-align: center;
-      background: (--headerColor)var;
+      background: #1abc9c;
       color: white;
     }
     /*Increase size of h1*/
@@ -94,53 +83,3 @@
         text-align: center;
         background: #ddd;
     }
-  </style>
-  <!--Funtionality of webiste-->
-  <script>
-  	
-    //let headerColor = '#' + red + green + blue;
-  	//let red = 26;
-    //let green = 188;
-    //let blue =156;
-  	//function changeColor() {
-    	//red += 1
-        //green += 0.25
-        //blue += 0.5
-    //}
-  </script>
-</head>
-<body>
-  <!--Header-->
-  <div class="header">
-    <!--Content of heading-->
-    <h1> My Website</h1>
-    <p>
-      A Website created by me
-    </p>
-  </div>
-  <!--Navigation bar-->
-  <div class="navbar">
-    <!--Content of navbar-->
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#" class="right">Link</a>
-  </div>
-  <!--Content of website-->
-  <div class="row">
-    <!--Columns-->
-    <div class="side">
-      ...
-    </div>
-    <div class="main">
-      ...
-    </div>
-  </div>
-  <!--Footer-->
-  <div class="footer">
-  	<h3 style="text-align:left">More</h3>
-    <p>Click the button below!</p>
-    <button onclick="changeColor()" style="background-color:#ff0000; color:white; border:none;">Click me</button>
-  </div>
-</body>
-</html>
