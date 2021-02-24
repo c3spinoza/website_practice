@@ -1,4 +1,7 @@
-body {
+ :root {
+    --headerColor: #1abc9c;
+  }
+    body {
       /*Font of in body*/
       font-family: Arial, Helvetica, sans-serif;
     }
@@ -8,7 +11,7 @@ body {
     .header {
       padding: 80px;
       text-align: center;
-      background: #1abc9c;
+      background: var(--headerColor);
       color: white;
     }
     /*Increase size of h1*/
