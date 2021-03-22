@@ -51,9 +51,5 @@ body {
     /*Styling footer*/
     .footer {
     	padding: 20px;
-        text-align: center;
-        background: #ddd;
-    }
-    .footer p {
         text-align: left;
-    }
+        background: #ddd;
