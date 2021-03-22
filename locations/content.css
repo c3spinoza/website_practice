@@ -34,17 +34,17 @@ body {
       padding: 20px;
     }
     /*Paragraph 1*/
-    .information p1 {
+    #p1 {
       text-align: justify; 
-      font-size: 25px; 
+      font-size: 18px; 
     }
     /*Paragraph 2*/
-    .information p2 {
+    #p2 {
       text-align: justify; 
-      font-size: 25px; 
+      font-size: 18px; 
     }
     /*Image 1*/
-    .information i1 {
+    #i1 {
       float: right;  
       margin: 5px;
     }
