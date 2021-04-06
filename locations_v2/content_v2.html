@@ -1,46 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Location Name</title>
-  <meta charset="UTF-8">
+  <title> Location Name </title>
+  <meta charset="utf-8">
+  <!--Adjusts for Screen Size-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--Styling of website-->
-  <!--<style src="locationName.css"></style>-->
-  <!--Styling of website-->
-  <!--<script src="locationName.js"></script>-->
+  <!--Link for Icons-->
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <!--Custom Stylesheet-->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!--Colapsing Menu-->
+  
+  <!--Check Box for Exit and Open Button -->
+  <input type="checkbox" id="check">
+  <label for="check">
+    <!--Open Button/ Three Lines-->
+    <i class="fas fa-bars" id="open"></i>
+    <!--Exit Button-->
+    <i class="fas fa-times" id="exit"></i>
+  </label>
+  <!--Sidebar Opened-->
+  <div class="sidebar">
+    <!--Name of Sidebar-->
+    <header>
+      Options
+    </header>
+    <!--List of Links/Buttons-->
+    <ul>
+      <li><a href="#"><i class="fas fa-map"></i>Map</a></li>
+      <li><a href="#"><i class="fas fa-book-open"></i>Sources</a></li>
+    </ul>
+  </div>
+  
+  <!--Content-->
+  
   <!--Header-->
   <div class="header">
     <!--Content of heading-->
     <h1>Location Name</h1>
-    <p>Address of Location</p>
+    <p>Address of Location </p>
   </div>
   <!--Content of website-->
   <div class="content">
-    <!--Information-->
-    <div class="information">
-      <!--Heading-->
-      <h2>Factory</h2> 
-      <!--Demo Paragraph 1-->
-      <p id="p1">
-        A factory, manufacturing plant or a production plant is an industrial site, often a complex consisting of several buildings filled with machinery, where workers manufacture items or operate machines which process each item into another. They are a critical part of modern economic production, with the majority of the world's goods being created or processed within factories.
-      </p>
-      <!--Demo Paragraph 2-->
-      <p id="p2">
-        Factories arose with the introduction of machinery during the Industrial Revolution, when the capital and space requirements became too great for cottage industry or workshops. Early factories that contained small amounts of machinery, such as one or two spinning mules, and fewer than a dozen workers have been called "glorified workshops".
-      </p>
-      <!--Demo Image-->
-      <img src="factory.jpg" alt="image of a factory" width="100" height="75"id="i1"/>
+    <!--Columns-->
+     <div class="map">
+      Mini  Map
+    </div>
+    <div class="context">
+      Information 
     </div>
     <div class="mission">
-     <h3>Mission:</h3>
-    <p>Factories arose with the introduction of machinery during the _________  _________.</p>
+      Mission for the locations  
     </div>
   </div>
   <!--Footer-->
   <div class="footer">
-  	<p>sources</p>
+  	<p>footer</p>
   </div>
 </body>
 </html>
